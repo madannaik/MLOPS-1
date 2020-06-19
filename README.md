@@ -18,15 +18,15 @@ Note that: If there are any merge conflicts, then it has to be manually updated.
 # **Initially the website will be running**
 Container                  |  Site
 :-------------------------:|:-------------------------:
-![](images/ic.png)  |  ![](images/io.png)
+![](13.png)  |  ![](12/io.png)
 
 # **JENKINS**
 
 ### Job1 : As soon as developer pushes the new code to the developer branch Jenkins will fetch the code from github and deploy on docker-developer environment
-![](images/1-job1 Config [Jenkins] and 1 more page - Personal - Microsoft​ Edge 6_19_2020 5_30_02 PM.png)
-![](images/1-job1 Config [Jenkins] and 1 more page - Personal - Microsoft​ Edge 6_19_2020 5_30_12 PM.png )
-![](images/1-job1 Config [Jenkins] and 1 more page - Personal - Microsoft​ Edge 6_19_2020 5_30_20 PM.png)
-![](images/j14.png)
+![](1.png)
+![](2.png)
+![](3.png)
+![](4.png)
 
 ### Execute Shell Code:
 
@@ -44,10 +44,10 @@ Container                  |  Site
 ### Job2 : Whenever developer pushes to the master branch, then Jenkins will fetch from master and deploy it on docker master-docker environment.
 ### (both developer-docker and master-docker environments are different containers)
 
-![](images/j21.png)
-![](images/j22.png)
-![](images/j23.png)
-![](images/j24.png)
+![](5.png)
+![](6.png)
+![](7.png)
+![](8.png)
 
 ### Execute Shell Code:
 
@@ -64,11 +64,9 @@ Container                  |  Site
 
 ### Job3 : Quality Assessment Team will manually test the website running in developer-docker environment. If it is running fine, they will trigger Jenkins next job which will merge the developer branch to master branch.
 
-![](images/j31.png)
-![](images/j32.png)
-![](images/j33.png)
-![](images/j34.png)
-![](images/j35.png)
+![](9.png)
+![](10.png)
+![](11.png)
 
 ### Once after the new code is updated at the Master branch the website also gets updated.
 ### The updated website is shown below
