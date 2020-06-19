@@ -23,9 +23,9 @@ Container                  |  Site
 # **JENKINS**
 
 ### Job1 : As soon as developer pushes the new code to the developer branch Jenkins will fetch the code from github and deploy on docker-developer environment
-![](images/j11.png)
-![](images/j12.png)
-![](images/j13.png)
+![](images/1-job1 Config [Jenkins] and 1 more page - Personal - Microsoft​ Edge 6_19_2020 5_30_02 PM.png)
+![](images/1-job1 Config [Jenkins] and 1 more page - Personal - Microsoft​ Edge 6_19_2020 5_30_12 PM.png )
+![](images/1-job1 Config [Jenkins] and 1 more page - Personal - Microsoft​ Edge 6_19_2020 5_30_20 PM.png)
 ![](images/j14.png)
 
 ### Execute Shell Code:
