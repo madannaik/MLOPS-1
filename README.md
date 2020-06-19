@@ -26,7 +26,7 @@ Container                  |  Site
 ![](images/1.png)
 ![](images/2.png)
 ![](images/3.png)
-![](images/4.png)
+
 
 ### Execute Shell Code:
 
@@ -44,10 +44,10 @@ Container                  |  Site
 ### Job2 : Whenever developer pushes to the master branch, then Jenkins will fetch from master and deploy it on docker master-docker environment.
 ### (both developer-docker and master-docker environments are different containers)
 
+![](images/4.png)
 ![](images/5.png)
 ![](images/6.png)
-![](images/7.png)
-![](images/8.png)
+
 
 ### Execute Shell Code:
 
@@ -64,14 +64,15 @@ Container                  |  Site
 
 ### Job3 : Quality Assessment Team will manually test the website running in developer-docker environment. If it is running fine, they will trigger Jenkins next job which will merge the developer branch to master branch.
 
+![](images/7.png)
+![](images/8.png)
 ![](images/9.png)
 ![](images/10.png)
 ![](images/11.png)
 
 ### Once after the new code is updated at the Master branch the website also gets updated.
-### The updated website is shown below
 
-![](images/ro.png)
+
 
 ---
 
