@@ -38,8 +38,7 @@ Container                  |  Site
        sudo docker run -dit -p 6996:80 -v /root/developer/:/usr/local/apache2/htdocs/ --name mlopsdev httpd:latest
      fi
 
-### Below shown is the launched container
-![](images/rc.png)
+
 
 ### Job2 : Whenever developer pushes to the master branch, then Jenkins will fetch from master and deploy it on docker master-docker environment.
 ### (both developer-docker and master-docker environments are different containers)
